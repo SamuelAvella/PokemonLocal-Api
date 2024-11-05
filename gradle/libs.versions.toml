@@ -2,20 +2,22 @@
 agp = "8.5.2"
 hiltAndroid = "2.51.1"
 kotlin = "1.9.0"
-coreKtx = "1.13.1"
+coreKtx = "1.15.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
 appcompat = "1.7.0"
 material = "1.12.0"
 activity = "1.9.3"
-constraintlayout = "2.1.4"
-moshi = "1.15.0"
+constraintlayout = "2.2.0"
+moshi = "1.15.1"
 retrofit = "2.11.0"
-retrofitVersion = "2.9.0"
+retrofitVersion = "2.11.0"
+roomKtx = "2.6.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomKtx" }
 converter-moshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofitVersion" }
 converter-scalars = { module = "com.squareup.retrofit2:converter-scalars", version.ref = "retrofitVersion" }
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }

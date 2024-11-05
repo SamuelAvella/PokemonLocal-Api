@@ -46,6 +46,7 @@ kapt {
 
 dependencies {
 
+    implementation(libs.androidx.room.ktx)
     implementation (libs.converter.moshi)
     implementation (libs.moshi)
     implementation (libs.moshi.kotlin)
